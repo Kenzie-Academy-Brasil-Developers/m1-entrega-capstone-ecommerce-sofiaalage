@@ -1,0 +1,242 @@
+body {
+    background-color: white;
+}
+header{
+    display: inline-flex;
+    justify-content:  space-around;
+    background-color: white;
+    position: absolute;
+    width: 1620px;
+    height: 70px;
+    left: -3px;
+    top: 0px;
+    box-shadow: 0px 4px 30px -10px;
+}
+#tituloPagina{
+    
+    position: inherit;
+    font-size: 20px;
+    height: 70px;
+    top: -14px;
+    left: 120px;
+    font-family: 'Inter', sans-serif;
+    
+}
+.menu{
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content:  space-between;
+    position: relative;
+    left: 550px;
+    height: 70px;
+    width: 352px;
+  
+}
+
+.itemMenu {
+    font-weight: 500;
+    font-size: 16px;
+    color: #242424;
+   
+ }
+
+.itemMenu:hover {
+    font-weight: 550;
+    text-decoration: underline #2E245E;
+}
+
+main{
+    display:flex;
+    
+}
+#Vitrine {
+    
+    box-sizing: border-box;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: absolute;
+    top: 122px;
+    left: 115px;
+    width: 968px;;
+    height: 838px;
+      
+}
+.card {
+    display: flex;
+    justify-content:  space-between;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    width: 296px;
+    height: 408px;
+    border: 2px solid#f5f5f5;
+}
+.card:hover {
+    border: 1px solid #2E245E; 
+}
+
+.fotografia{
+    width: 296px;
+    height: 154px;
+    background-color: #e6e4e4;
+    overflow: hidden;
+}
+.fotoDoProduto {
+    position: relative;
+    top: 0px;
+    right: 0px;
+    left: 35px;
+    width: 75%;
+}
+.sobreProduto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 296px ;
+    height: 254px;
+    top: 154px;
+    padding: 20px,15px,20px,15px;
+    gap: 15px;
+    
+    
+}
+.sessaoProduto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 70px;
+    height: 24px;
+    background-color: #2E245E;
+    font-family:  'Inter', sans-serif;;
+    font-size: 12px;
+    color: #FFFF;
+    top: 154px;
+    right: 197px;
+   
+}
+
+ 
+
+.tituloDeProduto {
+    font-family:'Inter', sans-serif;
+    font-size: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #292929;
+    position: absolute;
+    top: 190px;
+    right: 103px;
+}
+
+.descricaoDoProduto{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    width: 269px;
+    height: 74px;
+    position: absolute;
+    top: 245px;
+    right: 1px;
+    color: #242424;
+
+}
+.precoDoProduto{
+    font-family:'Inter', sans-serif;
+    font-style: normal ;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #2E245E;
+    position: absolute;
+    top: 320px;
+    right: 199px;
+
+}
+.botaoProduto{
+    font-family:  'Inter', sans-serif;
+    font-weight: 400;
+    width:166px;
+    height: 16px;
+    border: none;
+    background-color: white;
+    position: absolute;
+    top: 360px;
+    right: 120px;
+}
+.botaoProduto:hover{
+    color: #2E245E;
+    text-decoration: underline #2E245E;
+}
+.barraDePesquisa{
+    position: relative;
+    top: 139px;
+    left: 1122px;
+    width: 246px;
+    height: 50px;
+    background-color: #f5f5f5;
+    border: none;
+}
+.barraDePesquisa:hover{
+    border: 1px solid #37268C ;
+}
+.botaoPesquisar{
+    position: relative;
+    top: 139px;
+    left: 1131px;
+    width: 96px;
+    height: 50px ;
+    background-color: #2E245E;
+    color: #f5f5f5;
+    font-family: 'Inter', sans-serif;
+    border: none
+
+}
+.botaoPesquisar:hover{
+    background-color: #f5f5f5;
+    color:  #37268C;
+
+}
+.carrinhoDeCompras{
+   
+    text-align: center;
+    width: 360px;
+    height: 265px;
+    background-color: #f5f5f5;
+    color: #242424;
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    top: 255px;
+    left: 775px;
+
+}
+.cabecalhoCarrinhodeCompras{
+    width: 360px;
+    height: 55px;
+    background-color: #37268C;
+    color: #f5f5f5;
+    position: relative;
+    top: -20px;
+
+
+}
+.carrinhoVazio{
+    font-size: 26px;
+    font-weight: 550;
+    text-align: center
+
+}
+.AdicioneItem{
+    font-size: 16px;
+    text-align: center
+}
+.AdicioneItem:hover {
+    color: #2E245E;
+    font-weight: 550;
+    text-decoration: underline #2E245E;
+}

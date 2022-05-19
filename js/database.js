@@ -1,64 +1,64 @@
-// Banco de dados dos produtos
-
-const data = [
+let data = [
   {
     id: 1,
-    img: "../img/jaqueta.svg",
-    nameItem: "Lightweight Jacket",
+    img: "bota.jpeg",
+    nameItem: "Bota Ankleboot",
     description:
-      "Adicione um pouco de energia ao seu guarda-roupa de inverno com esta jaqueta vibrante...",
-    value: 100,
+      "Bota curta, cor marrom. Versátil e ideal para qualquer ocasião",
+    value: 120.00,
     addCart: "Adicionar ao carrinho",
-    tag: ["Camisetas"],
+    tag: ["Calçados"],
   },
   {
     id: 2,
-    img: "../img/gorro.svg",
-    nameItem: "Black Hat",
+    img: "oculos.jpeg",
+    nameItem: "Óculos Aviador",
     description:
-      "O gorro Next.js chegou! Esta beldade bordada tem um ajuste confortável que garante que...",
-    value: 100,
+      "Óculos de lente azul, modelo clássico aviador. Lente levemente espelhada.",
+    value: 329.00,
     addCart: "Adicionar ao carrinho",
     tag: ["Acessórios"],
   },
   {
     id: 3,
-    img: "../img/mascara.svg",
-    nameItem: "Mask",
+    img: "casaco.jpeg",
+    nameItem: "Casaco Flanelado",
     description:
-      "Esta máscara facial durável é feita de duas camadas de tecido tratado e possui presilhas...",
-    value: 40,
+      "Casaco forrado com camada espessa interna de algodão, perfeito para temperaturas mais baixas ",
+    value: 240.00,
+    addCart: "Adicionar ao carrinho",
+    tag: ["Roupas"],
+  },
+  {
+    id: 4,
+    img: "bolsa.jpeg",
+    nameItem: "Bolsa de couro",
+    description:
+      "Bolsa tira colo marrom, forrada e com três repartições internas.",
+    value: 175.00,
     addCart: "Adicionar ao carrinho",
     tag: ["Acessórios"],
   },
   {
-    id: 4,
-    img: "../img/camiseta_preta.svg",
-    nameItem: "T-Shirt",
-    description:
-      "Esta t-shirt é imprescindível no seu guarda-roupa, combinando o caimento intemporal de...",
-    value: 100,
-    addCart: "Adicionar ao carrinho",
-    tag: ["Camisetas"],
-  },
-  {
     id: 5,
-    img: "../img/camiseta_branca.svg",
-    nameItem: "Short-Sleeve T-Shirt",
+    img: "tamanco.jpeg",
+    nameItem: "Tamanco peptooe",
     description:
-      "Agora você encontrou a camiseta básica do seu guarda-roupa. É feito de um mais grosso...",
-    value: 100,
+      "Tamanco Salto médio. Garante coforte e um look elegante. ",
+    value: 99.00,
     addCart: "Adicionar ao carrinho",
-    tag: ["Camisetas"],
+    tag: ["Calçados"],
   },
   {
     id: 6,
-    img: "../img/moletom.svg",
-    nameItem: "Champion Packable Jacket",
+    img: "conjunto.jpeg",
+    nameItem: "Conjunto Moletom ",
     description:
-      "Proteja-se dos elementos com esta jaqueta embalável Champion. Esta jaqueta de poliést...",
-    value: 100,
+      "Conjunto de moletom super confortável e usual.",
+    value: 189.90,
     addCart: "Adicionar ao carrinho",
-    tag: ["Camisetas"],
+    tag: ["Roupas"],
   },
 ];
+
+export { data }
